@@ -2,10 +2,10 @@
 <div class="container">
     <div class="row">
         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <label for="" class="form-label text-center"><h2> Courses </h2></label>
             <table class="table">
                 <thead>
                   <tr>
-                    <th scope="col">Id</th>
                     <th scope="col">Title</th>
                     <th scope="col">Description</th>
                     <th scope="col">Duration</th>
@@ -15,7 +15,6 @@
                 </thead>
                 <tbody>
                   <tr *ngFor="let i of data">
-                    <td>{{i._id}}</td>
                     <td>{{i.courseTitle}}</td>
                     <td>{{i.courseDescription}}</td>
                     <td>{{i.courseDuration}}</td>
