@@ -14,7 +14,8 @@ import { ViewFriendsComponent } from './view-friends/view-friends.component';
 import { EmployeeLoginComponent } from './employee-login/employee-login.component';
 import { EmployeeRegistrationComponent } from './employee-registration/employee-registration.component';
 import { AddCourseComponent } from './add-course/add-course.component';
-import { EmployeeNavbarComponent } from './employee-navbar/employee-navbar.component'
+import { EmployeeNavbarComponent } from './employee-navbar/employee-navbar.component';
+import { AddFriendsComponent } from './add-friends/add-friends.component'
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { EmployeeNavbarComponent } from './employee-navbar/employee-navbar.compo
     EmployeeLoginComponent,
     EmployeeRegistrationComponent,
     AddCourseComponent,
-    EmployeeNavbarComponent
+    EmployeeNavbarComponent,
+    AddFriendsComponent
   ],
   imports: [
     BrowserModule,
