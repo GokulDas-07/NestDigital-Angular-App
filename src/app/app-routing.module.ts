@@ -4,6 +4,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { AddCourseComponent } from './add-course/add-course.component';
 import { AddFriendsComponent } from './add-friends/add-friends.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 import { EmployeeLoginComponent } from './employee-login/employee-login.component';
 import { EmployeeRegistrationComponent } from './employee-registration/employee-registration.component';
 import { HomeComponent } from './home/home.component';
@@ -19,7 +20,8 @@ const routes: Routes = [
   {path:"employeeregistration",component:EmployeeRegistrationComponent},
   {path:"addcourses",component:AddCourseComponent},
   {path:"addfriends",component:AddFriendsComponent},
-  {path:"aboutus",component:AboutUsComponent}
+  {path:"aboutus",component:AboutUsComponent},
+  {path:"contactus",component:ContactUsComponent}
 ];
 
 @NgModule({

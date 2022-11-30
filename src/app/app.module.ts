@@ -16,7 +16,8 @@ import { EmployeeRegistrationComponent } from './employee-registration/employee-
 import { AddCourseComponent } from './add-course/add-course.component';
 import { EmployeeNavbarComponent } from './employee-navbar/employee-navbar.component';
 import { AddFriendsComponent } from './add-friends/add-friends.component';
-import { AboutUsComponent } from './about-us/about-us.component'
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactUsComponent } from './contact-us/contact-us.component'
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { AboutUsComponent } from './about-us/about-us.component'
     AddCourseComponent,
     EmployeeNavbarComponent,
     AddFriendsComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
