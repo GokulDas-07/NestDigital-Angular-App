@@ -9,7 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { ViewCoursesComponent } from './view-courses/view-courses.component';
-import { AdminnavbarComponent } from './adminnavbar/adminnavbar.component'
+import { AdminnavbarComponent } from './adminnavbar/adminnavbar.component';
+import { ViewFriendsComponent } from './view-friends/view-friends.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AdminnavbarComponent } from './adminnavbar/adminnavbar.component'
     NavbarComponent,
     AdminLoginComponent,
     ViewCoursesComponent,
-    AdminnavbarComponent
+    AdminnavbarComponent,
+    ViewFriendsComponent
   ],
   imports: [
     BrowserModule,
