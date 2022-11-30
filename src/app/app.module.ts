@@ -7,14 +7,18 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { AdminLoginComponent } from './admin-login/admin-login.component'
+import { AdminLoginComponent } from './admin-login/admin-login.component';
+import { ViewCoursesComponent } from './view-courses/view-courses.component';
+import { AdminnavbarComponent } from './adminnavbar/adminnavbar.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    AdminLoginComponent
+    AdminLoginComponent,
+    ViewCoursesComponent,
+    AdminnavbarComponent
   ],
   imports: [
     BrowserModule,
