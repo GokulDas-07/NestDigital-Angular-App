@@ -12,7 +12,9 @@ import { ViewCoursesComponent } from './view-courses/view-courses.component';
 import { AdminnavbarComponent } from './adminnavbar/adminnavbar.component';
 import { ViewFriendsComponent } from './view-friends/view-friends.component';
 import { EmployeeLoginComponent } from './employee-login/employee-login.component';
-import { EmployeeRegistrationComponent } from './employee-registration/employee-registration.component'
+import { EmployeeRegistrationComponent } from './employee-registration/employee-registration.component';
+import { AddCourseComponent } from './add-course/add-course.component';
+import { EmployeeNavbarComponent } from './employee-navbar/employee-navbar.component'
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { EmployeeRegistrationComponent } from './employee-registration/employee-
     AdminnavbarComponent,
     ViewFriendsComponent,
     EmployeeLoginComponent,
-    EmployeeRegistrationComponent
+    EmployeeRegistrationComponent,
+    AddCourseComponent,
+    EmployeeNavbarComponent
   ],
   imports: [
     BrowserModule,
