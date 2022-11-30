@@ -10,7 +10,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { ViewCoursesComponent } from './view-courses/view-courses.component';
 import { AdminnavbarComponent } from './adminnavbar/adminnavbar.component';
-import { ViewFriendsComponent } from './view-friends/view-friends.component'
+import { ViewFriendsComponent } from './view-friends/view-friends.component';
+import { EmployeeLoginComponent } from './employee-login/employee-login.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ViewFriendsComponent } from './view-friends/view-friends.component'
     AdminLoginComponent,
     ViewCoursesComponent,
     AdminnavbarComponent,
-    ViewFriendsComponent
+    ViewFriendsComponent,
+    EmployeeLoginComponent
   ],
   imports: [
     BrowserModule,
