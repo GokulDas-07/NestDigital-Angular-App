@@ -16,7 +16,6 @@ export class ContactUsComponent {
   "mail":this.mail}
 
   console.log(data)
-  alert("Employee Registred")
     this.name=""
     this.designation=""
    this.phone="" 

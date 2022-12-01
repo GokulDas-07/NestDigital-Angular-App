@@ -33,15 +33,26 @@
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">District</label>
-                    <input name="district" [(ngModel)]="district" type="text"  class="form-control">
+                    <select name="district" [(ngModel)]="district" id="" class="form-control">
+                        <option value="">Kozhikode</option>
+                        <option value="">Wayanad</option>
+                        <option value="">Kannur</option>
+                    </select>
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">State</label>
-                    <input name="state" [(ngModel)]="state" type="text"  class="form-control">
+                    <select name="state" [(ngModel)]="state" id="" class="form-control">
+                        <option value="">Kerala</option>
+                        <option value="">Tamil Nadu</option>
+                        <option value="">Karnataka</option>
+                    </select>
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">Country</label>
-                    <input name="country" [(ngModel)]="country" type="text"  class="form-control">
+                    <select name="country" [(ngModel)]="country" id="" class="form-control">
+                        <option value="">India</option>
+                        <option value="">Others</option>
+                    </select>
                 </div>
                 
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
@@ -58,7 +69,11 @@
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">Gender</label>
-                    <input name="gender" [(ngModel)]="gender" type="text" class="form-control">
+                    <select name="gender" [(ngModel)]="gender" id="" class="form-control">
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                        <option value="">Others</option>
+                    </select>
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">Highest Degree</label>
