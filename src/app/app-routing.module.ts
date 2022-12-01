@@ -7,6 +7,7 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { EmployeeLoginComponent } from './employee-login/employee-login.component';
 import { EmployeeRegistrationComponent } from './employee-registration/employee-registration.component';
+import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
 import { ViewCoursesComponent } from './view-courses/view-courses.component';
 import { ViewFriendsComponent } from './view-friends/view-friends.component';
@@ -21,7 +22,8 @@ const routes: Routes = [
   {path:"addcourses",component:AddCourseComponent},
   {path:"addfriends",component:AddFriendsComponent},
   {path:"aboutus",component:AboutUsComponent},
-  {path:"contactus",component:ContactUsComponent}
+  {path:"contactus",component:ContactUsComponent},
+  {path:"gallery",component:GalleryComponent}
 ];
 
 @NgModule({
