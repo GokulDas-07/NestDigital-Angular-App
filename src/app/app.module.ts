@@ -17,7 +17,8 @@ import { AddCourseComponent } from './add-course/add-course.component';
 import { EmployeeNavbarComponent } from './employee-navbar/employee-navbar.component';
 import { AddFriendsComponent } from './add-friends/add-friends.component';
 import { AboutUsComponent } from './about-us/about-us.component';
-import { ContactUsComponent } from './contact-us/contact-us.component'
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { GalleryComponent } from './gallery/gallery.component'
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component'
     EmployeeNavbarComponent,
     AddFriendsComponent,
     AboutUsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
